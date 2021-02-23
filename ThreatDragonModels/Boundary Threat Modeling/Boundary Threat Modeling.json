@@ -409,6 +409,10 @@
                 {
                   "x": 330,
                   "y": 340
+                },
+                {
+                  "x": 370,
+                  "y": 310
                 }
               ],
               "id": "4fa01bc0-ccc4-4214-b0f7-d5488c3e5c1b",
@@ -417,7 +421,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "Stored Keys",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -453,7 +457,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 15",
+                      "text": "stored keys",
                       "font-weight": "400",
                       "font-size": "small"
                     }
