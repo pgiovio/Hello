@@ -24,25 +24,17 @@
               "angle": 0,
               "id": "4877f5fb-a7ae-473a-b238-8b40e6866478",
               "z": 1,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Spoofing",
-                  "title": "spoof",
-                  "description": "blabla"
-                }
-              ],
+              "hasOpenThreats": false,
+              "threats": [],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Boundary Client"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -165,6 +157,7 @@
               "id": "eaa3f01c-c8d8-4e8e-8281-1da4862d019a",
               "z": 8,
               "hasOpenThreats": false,
+              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
