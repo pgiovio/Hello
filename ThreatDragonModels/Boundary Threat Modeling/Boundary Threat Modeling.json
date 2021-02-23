@@ -18,8 +18,8 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 444,
+                "y": 2
               },
               "angle": 0,
               "id": "4877f5fb-a7ae-473a-b238-8b40e6866478",
@@ -39,7 +39,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 0"
+                  "text": "Boundary Client"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -53,8 +53,8 @@
                 "height": 100
               },
               "position": {
-                "x": 417,
-                "y": 289
+                "x": 693,
+                "y": 386
               },
               "angle": 0,
               "id": "b40cb65c-63ce-4278-8770-a2a32bbe8330",
@@ -74,7 +74,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Controller"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -82,44 +82,133 @@
               }
             },
             {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 217,
+                "y": 384
+              },
+              "angle": 0,
+              "id": "96bb2f65-5145-4231-8ff2-0b3b4ecc408c",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Workers"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 222,
+                "y": 207
+              },
+              "angle": 0,
+              "id": "4862817d-1b1b-479f-a266-8678eeeda247",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "NLB"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 56,
+                "y": 510
+              },
+              "angle": 0,
+              "id": "c08dff51-ccca-4674-ae10-063cd6714255",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "KMS"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 320,
+                "y": 512
+              },
+              "angle": 0,
+              "id": "eaa3f01c-c8d8-4e8e-8281-1da4862d019a",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "RDS"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 453,
-                "y": 270
+                "id": "4862817d-1b1b-479f-a266-8678eeeda247"
               },
               "target": {
-                "x": 210,
-                "y": 113
+                "id": "4877f5fb-a7ae-473a-b238-8b40e6866478"
               },
-              "vertices": [
-                {
-                  "x": 448,
-                  "y": 287
-                },
-                {
-                  "x": 441,
-                  "y": 250
-                },
-                {
-                  "x": 369,
-                  "y": 201
-                }
-              ],
-              "id": "49f9128f-ac43-4881-a290-31a0af2e87ba",
+              "vertices": [],
+              "id": "f75bb418-4493-4d72-bed1-278c6443dbea",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 2",
+                      "text": "flow 6",
                       "font-weight": "400",
                       "font-size": "small"
                     }
                   }
                 }
               ],
-              "z": 3,
+              "z": 9,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -133,8 +222,8 @@
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 630,
+          "width": 941
         }
       }
     ]
