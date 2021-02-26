@@ -121,7 +121,7 @@
                   "type": "Denial of service",
                   "title": "DoS",
                   "description": "An attacker could make the service unavailable executing a DoS Attack",
-                  "mitigation": "use AWS Shield to protect against this attack"
+                  "mitigation": "use ALB would allow to use AWS Shield to protect against this attack"
                 }
               ],
               "attrs": {
