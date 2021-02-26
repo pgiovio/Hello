@@ -149,16 +149,26 @@
               "angle": 0,
               "id": "c08dff51-ccca-4674-ae10-063cd6714255",
               "z": 7,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "non-authorize access to sensible information",
+                  "type": "Information disclosure",
+                  "description": "non-authorized used could access to sensible information if there are not accurate access controls rules in place",
+                  "mitigation": "grants only needed IAM permission to KMS.  Only controller and worker should access to KMS"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "KMS"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -175,17 +185,27 @@
               "angle": 0,
               "id": "eaa3f01c-c8d8-4e8e-8281-1da4862d019a",
               "z": 8,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "storesCredentials": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "non-authorize access to sensible information",
+                  "description": "a non-authorized user could access to sensible information such as credentials if there are not security controls in place",
+                  "mitigation": "allow only connections from Boundary Controller.\nStore DB password in a secure repository"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "RDS"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
