@@ -59,7 +59,7 @@
                   "title": "StandAlone Authentication",
                   "type": "Repudiation",
                   "description": "Using not trusted identities would allow non-authorized user access to the system",
-                  "mitigation": "Use trusted identities integrating the authentication with a trusted identities repository"
+                  "mitigation": "Use trusted identities integrating the authentication with a trusted identities repository.  \nBuild a process to revoke access as soon as an employee leaves the company."
                 }
               ],
               "attrs": {
@@ -364,6 +364,10 @@
                 {
                   "x": 340,
                   "y": 201
+                },
+                {
+                  "x": 301,
+                  "y": 237
                 }
               ],
               "id": "05336b81-967b-423d-9eb9-0c933f598b8c",
